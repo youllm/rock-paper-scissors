@@ -3,10 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="script.js"></script>
+    <title>Let's play Rock, Paper, Scissors</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <header>
+        <div class="container">
+            <h1 class="logo-text">Rock, Paper, Scissors!</h1>
+        </div>
+    </header>
+    <div class="container game-info">
+        <div class="whos-score pc-score">
+            <h2 class="who-plays computer">Computer</h2>
+            <h3 class="score computer">0</h3>
+        </div>
+        <div class="game-result">
+            <h2 class="game-result-text">Draw!</h2>
+        </div>
+        <div class="whos-score you-score">
+            <h2 class="who-plays human">Human</h2>
+            <h3 class="score human">0</h3>
+        </div>
+    </div>
+    <div class="container players-hands">
+        <div class="who-plays-hand computer">
+            <h2 class="choise computer">🪨</h2>
+        </div>
+        <div class="who-plays-hand human">
+            <h2 class="choise human">🪨</h2>
+        </div>
+    </div>
+    <div class="container buttons-plays">
+        <button class="rock">🪨</button>
+        <button class="paper">📄</button>
+        <button class="scissors">✂️</button>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
